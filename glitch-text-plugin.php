@@ -38,8 +38,8 @@ function glitch_text_handler($atts)
       <feFlood flood-color=\"limegreen\" result=\"flood2\" />
       <feOffset in=\"SourceGraphic\" dx=\"2\" dy=\"0\" result=\"off1a\"/>
       <feOffset in=\"SourceGraphic\" dx=\"1\" dy=\"0\" result=\"off1b\"/>
-      <feOffset in=\"SourceGraphic\" dx=\"-2\" dy=\"0\" result=\"off2a\"/>
-      <feOffset in=\"SourceGraphic\" dx=\"-1\" dy=\"0\" result=\"off2b\"/>
+      <feOffset in=\"SourceGraphic\" dx=\"-3\" dy=\"0\" result=\"off2a\"/>
+      <feOffset in=\"SourceGraphic\" dx=\"-2\" dy=\"0\" result=\"off2b\"/>
       <feComposite in=\"flood1\" in2=\"off1a\" operator=\"in\"  result=\"comp1\" />
       <feComposite in=\"flood2\" in2=\"off2a\" operator=\"in\" result=\"comp2\" />
 
@@ -84,7 +84,7 @@ function glitch_text_handler($atts)
         <animate attributeName=\"y\" 
           id = \"y\"
           dur =\"60s\"
-          values = '103px; 104px; 5px; 104px; 104px; 69px; 104px; 104px; 30px; 104px; 104px;' 
+          values = '103px; 104px; 5px; 104px; 104px; 190px; 104px; 104px; 70px; 104px; 104px;' 
           keyTimes = '0; 0.085; 0.086; 0.087; 0.333; 0.334; 0.335; 0.75; 0.751; 0.752; 1'
           repeatCount = \"indefinite\" 
         />
@@ -105,11 +105,19 @@ function glitch_text_handler($atts)
       </filter>
   </defs>
   <g>
-    <text x=\"0\" y=\"0\">
-      <tspan x=\"1.5em\" dy=\"1.2em\">Composition, Performance,</tspan>
+    <text x=\"0\" y=\"0\">" .
+
+    // approx pixel widths of these lines on Tom's browser
+    // 516px => (650 - 516)/2 = 67
+    // 650px => (650 - 650)/2 = 0
+    // 311px => (650 - 311)/2 = 169.5
+    // 466px => (650 - 466)/2 = 92
+
+"
+      <tspan x=\"67px\" dy=\"1.2em\">Composition, Performance,</tspan>
       <tspan x=\"0\" dy=\"1.2em\">Improvisation, and Making Things,</tspan> 
-      <tspan x=\"4em\" dy=\"1.2em\">sitting in a tree :</tspan>
-      <tspan x=\"1.7em\" dy=\"1.2em\">Me-Me-Me-Me-Me-Me-Me</tspan>
+      <tspan x=\"169px\" dy=\"1.2em\">sitting in a tree :</tspan>
+      <tspan x=\"92px\" dy=\"1.2em\">Me-Me-Me-Me-Me-Me-Me</tspan>
     </text>
   </g>
 </svg>";
