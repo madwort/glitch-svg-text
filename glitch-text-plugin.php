@@ -14,7 +14,7 @@ function glitch_text_handler($atts)
 {
   return "
 <svg version=\"1.1\" id=\"Ebene_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" 
-  width=\"650px\" height=\"190px\" viewBox=\"0 0 650 190\" style=\"float: left;\">
+  width=\"650px\" height=\"200px\" viewBox=\"0 0 650 200\" style=\"float: left;\">
 <style type=\"text/css\">
 
 <![CDATA[
