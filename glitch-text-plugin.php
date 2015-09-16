@@ -3,7 +3,7 @@
 Plugin Name: Glitch text
 Plugin URI: http://www.rodrigoconstanzo.com/thesis/
 Description: Bzzzt bzzt bzzt
-Version: 0.3
+Version: 0.4
 Author: MADWORT
 Author URI: http://www.madwort.co.uk
 */
@@ -13,14 +13,14 @@ add_shortcode('glitch_text', 'glitch_text_handler');
 function glitch_text_handler($atts)
 {
   return "
-<svg version=\"1.1\" id=\"Ebene_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" 
+<svg version=\"1.1\" id=\"glitch\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" 
   width=\"650px\" height=\"200px\" viewBox=\"0 0 650 200\" style=\"float: left;\">
 <style type=\"text/css\">
-  text {
+  #glitch text {
     filter: url(#filter);
     fill: black;
     font-family: Helvetica, sans-serif;
-    font-size: 2.45em;
+    font-size: 3em;
     font-weight: bold;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
