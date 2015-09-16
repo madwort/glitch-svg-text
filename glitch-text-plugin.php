@@ -14,7 +14,7 @@ function glitch_text_handler($atts)
 {
   return "
 <svg version=\"1.1\" id=\"Ebene_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" 
-  width=\"650px\" height=\"150px\" viewBox=\"0 0 650 150\" style=\"float: left;\">
+  width=\"650px\" height=\"190px\" viewBox=\"0 0 650 190\" style=\"float: left;\">
 <style type=\"text/css\">
 
 <![CDATA[
@@ -22,8 +22,9 @@ function glitch_text_handler($atts)
   text {
     filter: url(#filter);
     fill: black;
-    font-family: 'Share Tech Mono', sans-serif;
-    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+    font-size: 2.45em;
+    font-weight: bold;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -33,7 +34,7 @@ function glitch_text_handler($atts)
 
     <filter id=\"filter\">
       <feFlood flood-color=\"white\" result=\"white\" />
-      <feFlood flood-color=\"red\" result=\"flood1\" />
+      <feFlood flood-color=\"pink\" result=\"flood1\" />
       <feFlood flood-color=\"limegreen\" result=\"flood2\" />
       <feOffset in=\"SourceGraphic\" dx=\"2\" dy=\"0\" result=\"off1a\"/>
       <feOffset in=\"SourceGraphic\" dx=\"1\" dy=\"0\" result=\"off1b\"/>
