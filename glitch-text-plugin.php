@@ -16,9 +16,6 @@ function glitch_text_handler($atts)
 <svg version=\"1.1\" id=\"Ebene_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" 
   width=\"650px\" height=\"200px\" viewBox=\"0 0 650 200\" style=\"float: left;\">
 <style type=\"text/css\">
-
-<![CDATA[
-
   text {
     filter: url(#filter);
     fill: black;
@@ -28,7 +25,6 @@ function glitch_text_handler($atts)
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-]]>
 </style>
   <defs>
 
