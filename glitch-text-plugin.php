@@ -50,7 +50,7 @@ function glitch_text_handler($atts)
 
         <animate attributeName=\"y\" 
           id = \"y\"
-          dur =\"15s\"
+          dur =\"5s\"
           values = '104px; 102px'
           keyTimes = '0; 1'
           repeatCount = \"indefinite\" 
@@ -58,7 +58,7 @@ function glitch_text_handler($atts)
  
         <animate attributeName=\"height\" 
           id = \"h\" 
-          dur =\"15s\"
+          dur =\"5s\"
           values = '50px; 50px'
           keyTimes = '0; 1'
           repeatCount = \"indefinite\" 
@@ -79,7 +79,7 @@ function glitch_text_handler($atts)
 
         <animate attributeName=\"y\" 
           id = \"y\"
-          dur =\"15s\"
+          dur =\"5s\"
           values = '103px; 104px; 5px; 104px; 104px; 190px; 104px; 104px; 70px; 104px; 104px;' 
           keyTimes = '0; 0.085; 0.086; 0.087; 0.333; 0.334; 0.335; 0.75; 0.751; 0.752; 1'
           repeatCount = \"indefinite\" 
@@ -87,7 +87,7 @@ function glitch_text_handler($atts)
  
         <animate attributeName=\"height\" 
           id = \"h\"
-          dur = \"15s\"
+          dur = \"5s\"
           values = '16px; 16px; 10px; 16px; 16px; 50px; 16px; 16px; 20px; 16px; 16px'
           keyTimes = '0; 0.085; 0.086; 0.087; 0.333; 0.334; 0.335; 0.75; 0.751; 0.752; 1'
           repeatCount = \"indefinite\" />
